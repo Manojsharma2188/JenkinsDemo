@@ -12,5 +12,11 @@ public class JenkinsDemoContoller {
 		return "Hello Don!";
 	}
 	
+	@GetMapping("/namaste")
+	public String showNamo() {
+		
+		return "Namaste Don!";
+	}
+	
 
 }
