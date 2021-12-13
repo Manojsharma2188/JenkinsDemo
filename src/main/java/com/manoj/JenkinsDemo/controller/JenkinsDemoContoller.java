@@ -18,5 +18,11 @@ public class JenkinsDemoContoller {
 		return "Namaste Don!";
 	}
 	
+	@GetMapping("/ramram")
+	public String showRamram() {
+		
+		return "Ram Ram Don!";
+	}
+	
 
 }
